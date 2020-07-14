@@ -5,54 +5,52 @@ package com.github.perscholas.java_fundamentals;
  */
 public class PredicateUtilities {
     /**
-     * @param x
-     * @param y
-     * @return true if `x` is greater than `y`
+     * int x;
+     * int y;
+     * if(x>y)
+     * return true;
      */
     public Boolean isGreaterThan(int x, int y) {
-        return null;
+        if (x > y) return true;
+        else return false;
     }
 
     /**
-     * @param x
-     * @param y
-     * @return true if `x` is less than `y`
+     * * @return true if `x` is less than `y`
      */
     public Boolean isLessThan(int x, int y) {
-        return null;
-    }
 
-    /**
-     * @param x
-     * @param y
-     * @return true if `x` is greater than or equal to `y`
-     */
+
+     if(x<y)
+            return true;
+     else
+             return false;
+}
     public Boolean isGreaterThanOrEqualTo(int x, int y) {
-        return null;
+        if (x >= y)
+            return true;
+    else
+        return false;
+
     }
 
-    /**
-     * @param x
-     * @param y
-     * @return true if `x` is less than or equal to `y`
-     */
     public Boolean isLessThanOrEqualTo(int x, int y) {
-        return null;
+        if (x <= y)
+            return true;
+        else
+            return false;
     }
 
-
-    /**
-     * @return true
-     */
-    public Boolean returnTrue() {
-        return null;
+    public Boolean returnTrue()
+    {
+        return true;
     }
 
     /**
      * @return false
      */
     public Boolean returnFalse() {
-        return null;
+        return false;
     }
 
 }
